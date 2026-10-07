@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Mahavir Traders</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+    <!-- Symmetric Header -->
+    <header>
+        <div class="container nav-grid">
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="products.html">Catalog</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="logo serif">Mahavir Traders</div>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle"><i class="fa-solid fa-moon"></i></button>
+                <a href="contact.html" class="btn btn-outline">Enquire</a>
+            </div>
+        </div>
+    </header>
+
+    <main style="padding: 6rem 0;">
+        <div class="container">
+            <div class="section-title">
+                <span class="hero-subtitle">Connect With Us</span>
+                <h2>Let's Discuss Volume.</h2>
+            </div>
+            
+            <div class="grid-2">
+                <!-- Contact Details -->
+                <div class="card" style="text-align: left; padding: 3rem;">
+                    <h3 class="serif" style="font-size: 2rem; margin-bottom: 2rem;">Depot Details</h3>
+                    
+                    <div style="margin-bottom: 1.5rem;">
+                        <span class="hero-subtitle" style="font-size: 0.7rem;">Location</span>
+                        <p style="color: var(--text-muted); margin-top: 0.5rem;">Shop No. 7, Plot No. 267, Uran Road<br>Near MSEB Office, Tapal Naka<br>Panvel, Navi Mumbai – 410206</p>
+                    </div>
+
+                    <div style="margin-bottom: 1.5rem;">
+                        <span class="hero-subtitle" style="font-size: 0.7rem;">Direct Line</span>
+                        <p style="color: var(--text-muted); margin-top: 0.5rem; font-size: 1.2rem;">
+                            <a href="tel:+919820250255" style="transition: color 0.3s ease;">+91 9820250255</a>
+                        </p>
+                    </div>
+
+                    <div>
+                        <span class="hero-subtitle" style="font-size: 0.7rem;">Trading Hours</span>
+                        <p style="color: var(--text-muted); margin-top: 0.5rem;">Monday – Saturday<br>09:00 AM – 05:00 PM</p>
+                    </div>
+                </div>
+
+                <!-- Aesthetic Form -->
+                <div class="card" style="text-align: left; padding: 3rem;">
+                    <h3 class="serif" style="font-size: 2rem; margin-bottom: 2rem;">Send Inquiry</h3>
+                    <form style="display: flex; flex-direction: column; gap: 1.5rem;" onsubmit="event.preventDefault(); window.open('https://wa.me/919820250255?text=Hello,%20I%20have%20an%20inquiry%20from%20your%20website.', '_blank');">
+                        <input type="text" class="form-input" placeholder="Your Name or Business" required>
+                        <input type="tel" class="form-input" placeholder="Mobile Number" required>
+                        <textarea class="form-input" placeholder="Commodity and Volume required..." rows="4" required></textarea>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <h2 class="logo serif" style="margin-bottom: 1rem;">Mahavir Traders</h2>
+            <p style="color: var(--text-muted); margin-bottom: 2rem;">Shop No. 7, Plot No. 267, Uran Road, Near MSEB Office, Panvel</p>
+            <p style="font-size: 0.9rem; color: var(--border-color);">&copy; <span class="year">2026</span> Mahavir Traders. Elegantly Crafted.</p>
+        </div>
+    </footer>
+</body>
+</html>
